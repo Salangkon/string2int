@@ -13,14 +13,7 @@ public class String2int {
 
 	@PostMapping(value = "/string2int")
 	public String string2int(@RequestBody HashMap<String, String> value) {
-		String number = "";
-		for (int i = 0; i < value.get("value").length(); i++) {
-			char c = value.get("value").charAt(i);
-			if (Character.isDigit(c)) {
-				number += c;
-			}
-		}
-		return number;
+		return value.get("value").replaceAll("\\D+", "");
 	}
 
 }

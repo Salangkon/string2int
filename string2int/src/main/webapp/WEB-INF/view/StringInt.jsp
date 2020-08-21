@@ -12,7 +12,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Nunito:600,700,900" rel="stylesheet">
 	<style>
 		body {
 			background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://cf.ltkcdn.net/web-design/images/orig/204538-2261x1326-HTML.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -20,7 +19,7 @@
 	</style>
 </head>
 <body id="body">
-	<div id="login-card" class="card" style="width: 50%;margin-left: 25%;margin-top: 15%">
+	<div id="login-card" class="card" style="width: 20%;margin-left: 40%;margin-top: 15%">
 		<div class="card-body">
 			<img alt="" src="https://res.cloudinary.com/appman-co-ltd/image/upload/f_auto/q_auto/v1530090595/agentmate_logo.svg">
 			<h2 class="text-center">string2int</h2>
